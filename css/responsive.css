@@ -1,0 +1,200 @@
+@media (max-width: 401px) {
+    nav .menu-btn button {
+        left: 20px;
+        position: relative;
+
+    }
+}
+
+@media (max-width: 466px) {
+    nav .menu .nav-btn {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 455px) {
+    #topbar {
+        height: 70px;
+    }
+
+    .left svg.fa-mobile-screen {
+        /* color: red; */
+        position: relative;
+        top: 25px;
+        left: -183px;
+    }
+
+    .left a:nth-child(4) {
+        /* color: red; */
+        position: relative;
+        left: 28px;
+    }
+
+    #topbar .right {
+        position: relative;
+        right: 30px;
+        top: -7px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-top form input[type="submit"] {
+        background: #1c84e3;
+        position: relative;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .faq-list ul {
+        padding: 0 0px;
+    }
+
+    #footer-social {
+        padding: 30px 0 40px 0;
+    }
+
+    .copywrite-social {
+        position: relative;
+        /* left: 50%; */
+        /* transform: translateX(-50%); */
+        top: 20px;
+        left: -10px;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+    
+
+    .menu ul {
+        flex-direction: column;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        left: 50px;
+        text-align: left;
+        top: 80px;
+        height: 45vh;
+        right: 0;
+        visibility: hidden;
+        z-index: 10;
+    }
+
+    .menu {
+        overflow: hidden;
+    }
+
+    nav .menu-btn {
+
+        display: block;
+        position: relative;
+        right: 70px;
+        padding: 10px;
+    }
+
+    nav .menu ul li {
+        margin-right: 0;
+    }
+
+    .menu ul li {
+        padding: 20px 0 0 30px;
+        text-align: left;
+    }
+
+    .menu ul li ul {
+        visibility: hidden;
+    }
+
+    .menu ul li:nth-child(6) svg {
+        display: none;
+    }
+
+    nav .menu ul li a:hover::after {
+        width: 0;
+    }
+    .menu-btn svg{
+        position: absolute;
+        top: 80px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .faq-list ul{
+        padding: 0 0px;
+    }
+    #footer-social{
+        overflow: hidden;
+    }
+    #footer{
+        overflow: hidden;
+    }
+    #contact{
+        overflow: hidden;
+    }
+    #gallery{
+        overflow: hidden;
+    }
+    #slider{
+        overflow: hidden;
+    }
+    #faq{
+        overflow: hidden;
+    }
+    #doctor{
+        overflow: hidden;
+    }
+    #department{
+        overflow: hidden;
+    }
+}
+@media (max-width: 385px){
+    .faq-list ul{
+        padding: 0 0px;
+    }
+    #footer-social{
+        overflow: hidden;
+    }
+    #footer{
+        overflow: hidden;
+    }
+    #contact{
+        overflow: hidden;
+    }
+    #gallery{
+        overflow: hidden;
+    }
+    #slider{
+        overflow: hidden;
+    }
+    #faq{
+        overflow: hidden;
+    }
+    #doctor{
+        overflow: hidden;
+    }
+    #department{
+        overflow: hidden;
+    }
+}
+@media (max-width: 482px){
+    .faq-ques1 svg:nth-child(3){
+        display: none;
+    }
+    .faq-ques2 svg:nth-child(3){
+        display: none;
+    }
+    .faq-ques3 svg:nth-child(3){
+        display: none;
+    }
+    .faq-ques4 svg:nth-child(3){
+        display: none;
+    }
+    .faq-ques5 svg:nth-child(3){
+        display: none;
+    }
+}
